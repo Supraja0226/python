@@ -72,3 +72,12 @@ if(num%7==0):
      print("multiple of 7")
 else:
     print("not a multiple of 7")
+    
+#checking if a number is positive, negative or zero
+num=int(input("enter a number:"))
+if(num>0):
+    print("num is a positive number")
+elif(num<0):
+    print("num is a negative number")
+else:
+    print("num is zero")
