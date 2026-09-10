@@ -46,3 +46,14 @@ val1=True
 val2=False
 print("AND operator:", val1 and val2)
 print("OR operator:", val1 or val2)
+
+#membership operator
+
+list=[1,2,3,4,5]
+print(3 in list)
+print (7 not in list)
+
+#identity operator
+b=5
+print(5 is b)
+print(5 is not b)
