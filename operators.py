@@ -52,8 +52,11 @@ print("OR operator:", val1 or val2)
 list=[1,2,3,4,5]
 print(3 in list)
 print (7 not in list)
+print (3 not in list)
+print(7 in list)
 
 #identity operator
 b=5
 print(5 is b)
 print(5 is not b)
+
