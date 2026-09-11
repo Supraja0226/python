@@ -81,3 +81,34 @@ elif(num<0):
     print("num is a negative number")
 else:
     print("num is zero")
+    
+#checking the given user alphabet vowels or constant
+alphabet=input("enter a alphabet:")
+if alphabet in ('a','e','i','o','u'):
+    print("vowel")
+else:
+    print("not a vowel")
+    
+#checking the person valid voter or not
+age=int(input("enter your age:"))
+if(age>=18):
+    print("valid voter")
+else:
+    print("not a valid voter")
+#weather suggestion based on temperature 
+temp=int(input("enter the temperature:"))
+if(temp>40):
+    print("it's too hot")
+elif(temp>30 and temp<40):
+    print("it's hot")
+elif(temp>20 and temp<30):
+    print("it's warm")
+else:
+    print("it's cold") 
+    
+#check if a number is greater than 0
+num=int(input("enter any number:"))
+if(num>0):
+    print("num is greater than 0")
+else:
+    print("num is less than or equal to 0")
