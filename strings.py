@@ -32,11 +32,28 @@ print(str.endswith("hell"))
 
 print(str.capitalize())#capitalizes the 1st char
 
-print(str.replace("o","a"))#replaces all the occurrences of old with new
 
-print(str.find("l"))#returns 1st index of 1st occurer
-print(str.find("a"))#returns -1
+s=" Hello "
+print(s.lower())#conerts all the characters in a string into lowercase
+print(s.upper())#converts all the characters in a string into uppercase
+print(s.strip())#removes the leading and trailing whitespaces from the string
+print(s.split())#splits the string into a list of substrings based on whitespace
+print(''.join(["hello","world"]))#joins the list of strings into a single string
+print(s.replace("Hello","Hi"))#replaces the specified substring with the new substring in the string
+print(s.count("l"))#returns the number of times a specified value appears in the string
+print(s.find("o"))#returns the index of the first occurrence of a specified value in the string
+print(s.startswith("H"))#returns True if the string starts with the specified value
+print(s.isalpha())#returns True if all characters in the string are alphabets
+print(s.isdigit())#returns True if all the characters in the string are digits
 
-print(str.count("l"))#counts the occurrences of substr
+x=-10;
+print(abs(x))#returns the absolute value of a number
 
+a=4;
+b=2;
+print(pow(a,b))#returns the value of a raised to the power of b
 
+y=3.14;
+print(round(y))#returns the value of a number rounded to the nearest integer
+
+print(max(1,2,3,4))#returns the largest value among the specified values
