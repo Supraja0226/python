@@ -95,6 +95,7 @@ if(age>=18):
     print("valid voter")
 else:
     print("not a valid voter")
+    
 #weather suggestion based on temperature 
 temp=int(input("enter the temperature:"))
 if(temp>40):

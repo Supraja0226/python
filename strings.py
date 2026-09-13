@@ -33,7 +33,7 @@ print(str.endswith("hell"))
 print(str.capitalize())#capitalizes the 1st char
 
 
-s=" Hello "
+s="Hello "
 print(s.lower())#conerts all the characters in a string into lowercase
 print(s.upper())#converts all the characters in a string into uppercase
 print(s.strip())#removes the leading and trailing whitespaces from the string
@@ -57,3 +57,4 @@ y=3.14;
 print(round(y))#returns the value of a number rounded to the nearest integer
 
 print(max(1,2,3,4))#returns the largest value among the specified values
+

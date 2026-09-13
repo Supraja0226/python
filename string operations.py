@@ -11,9 +11,6 @@ print(a[0:5])
 c="I am learning Python"
 print(c.find("Python"))
 
-u="OpenAI"
-print(u[::5])
-
 d="I love Java programming"
 print(d.replace("Java","python"))
 
