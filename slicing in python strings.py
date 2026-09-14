@@ -23,5 +23,4 @@ word="computer"
 print(word[-2:2:-2])
 
 language="python"
-print(language[1:-1]) 
-print(language[:-1])
+print(language[1:-1])
