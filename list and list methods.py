@@ -62,6 +62,3 @@ lst8=[5,2,8,1,3]
 lst8.sort()
 print(lst8)
 
-a=[4,7,1,9,3]
-b=sum(a)
-print(b)
