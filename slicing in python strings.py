@@ -21,6 +21,22 @@ print(phrase[-4:-1])
 
 word="computer"
 print(word[-2:2:-2])
+print(word[1:7:2])
 
 language="python"
 print(language[1:-1])
+
+name="Artificial"
+print(name[0:10:2])
+
+text="ArtificialIntelligence"
+print(text[::-2])
+
+txt="ABCDEFGHIJ"
+print(txt[8:1:-1])
+
+letters="ABCDEFGHIJKLMN"
+print(letters[0:14:3])
+
+sub="DataScience"
+print(sub[::-2])

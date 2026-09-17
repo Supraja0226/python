@@ -113,6 +113,7 @@ if(num>0):
     print("num is greater than 0")
 else:
     print("num is less than or equal to 0")
+    
 #check if a given year is leap year or not
 year=int(input("enter a year:"))
 if year%4==0:
