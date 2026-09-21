@@ -39,4 +39,16 @@ letters="ABCDEFGHIJKLMN"
 print(letters[0:14:3])
 
 sub="DataScience"
-print(sub[::-2])
+print(sub[::-2]) 
+
+txt1="ABCDEFGHIJMNO"
+print(txt1[12:3:-2])
+
+txt2="DataScience"
+print(txt2[-1:-8:-1])
+
+txt3="PythonProgramming"
+print(txt3[14:4:-1])
+
+txt4="MachineLearning"
+print(txt4[-2::-2])
