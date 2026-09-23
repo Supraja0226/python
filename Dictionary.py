@@ -1,10 +1,12 @@
-dict={"name":"Supraja","age":21,"city":"Hyderabad"}
+dict={"name":"Supraja","age":21,"city":"Hyderabad","marks":945}
 print(dict)
 print(dict["name"])
 print(dict["age"])
 print(dict["city"])
+print(dict["marks"])
 dict["age"]=22
 print(dict)
+print(type(dict))
 
 info={
     "subjects":["Python","Java"],
@@ -18,3 +20,4 @@ print(info["topics"])
 null_dict={}
 null_dict["name"]="Sujana"
 print(null_dict)
+
