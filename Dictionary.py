@@ -46,8 +46,5 @@ print(student.popitem())#removes and returns an arbitary pair from the dictionar
 new_dict=student.copy()#returns a shallow copy of the dictionary
 print(new_dict)
 print(len(student))#returns the number of items in ith dictionary
-
-
-
 student.clear()#removes all items from the dictionary
 print(student)
