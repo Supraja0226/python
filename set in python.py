@@ -33,3 +33,7 @@ print(set2.intersection(set3))#returns intersection of two sets
 print(set2.difference(set3))#returns a new set with elements in the first set but not in both
 print(set2.issubset(set3))#checks if the first set is a subset of the second set
 print(set2.issuperset(set3))#checks if the first set is a superset of the second set
+
+s={1,2,3,4,5,6,7}
+s2=s.copy()#returns a shallow copy of the set
+print(s2)
