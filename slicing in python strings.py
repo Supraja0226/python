@@ -52,3 +52,6 @@ print(txt3[14:4:-1])
 
 txt4="MachineLearning"
 print(txt4[-2::-2])
+
+txt4="Deep Learning"
+print(txt4[-2::-2])
