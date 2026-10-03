@@ -62,3 +62,7 @@ lst8=[5,2,8,1,3]
 lst8.sort()
 print(lst8)
 
+numbers = [10, 20, 30, 40, 50]
+print(numbers)
+print(numbers.index(20))
+print(numbers[1])
