@@ -25,3 +25,9 @@ print(f.split())
 
 g=" python"
 print(g.strip())
+
+h="Python is fun"
+print(h.startswith("Python"))
+
+I="Programmer"
+print(I.endswith("mer"))
