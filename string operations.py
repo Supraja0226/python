@@ -31,3 +31,7 @@ print(h.startswith("Python"))
 
 I="Programmer"
 print(I.endswith("mer"))
+print(I.isalpha())
+print(I.isdigit())
+print(I.islower())
+print(I.isupper())
