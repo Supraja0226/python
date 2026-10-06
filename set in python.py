@@ -37,3 +37,5 @@ print(set2.issuperset(set3))#checks if the first set is a superset of the second
 s={1,2,3,4,5,6,7}
 s2=s.copy()#returns a shallow copy of the set
 print(s2)
+print(s2.isdisjoint(s))#returns True if two sets have a null intersection
+print(s2.symmetric_difference(s))
