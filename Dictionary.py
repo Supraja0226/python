@@ -48,3 +48,6 @@ print(new_dict)
 print(len(student))#returns the number of items in ith dictionary
 student.clear()#removes all items from the dictionary
 print(student)
+print(new_dict)
+print(new_dict.setdefault("name","Supraja"))#returns the value of the specified key. If the key does not exsit)
+print(new_dict.setdefault("age",21))

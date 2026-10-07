@@ -38,4 +38,4 @@ s={1,2,3,4,5,6,7}
 s2=s.copy()#returns a shallow copy of the set
 print(s2)
 print(s2.isdisjoint(s))#returns True if two sets have a null intersection
-print(s2.symmetric_difference(s))
+print(s2.symmetric_difference(s))#returns a new set with elements in either the first or second set but not both
