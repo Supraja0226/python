@@ -55,3 +55,12 @@ print(txt4[-2::-2])
 
 txt4="Deep Learning"
 print(txt4[-2::-2])
+
+text1 = "ComputerScienceEngineering"
+print(text1[18:7:-3])
+
+text2 = "Supercalifragilisticexpialidocious"
+print(text2[-2:5:-4])
+
+text3 = "MachineLearningAlgorithms"
+print(text3[5:20:2])

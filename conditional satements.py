@@ -129,3 +129,22 @@ elif(num2>num1):
     print("num2 is greater than num1")
 else:
     print("both numbers are equal")
+
+marks = 87
+attendance = 92
+
+if marks >= 90 and attendance >= 90:
+    print("Grade: A+")
+    print("Eligible for scholarship")
+
+elif marks >= 80 and attendance >= 85:
+    print("Grade: A")
+    
+elif marks >= 70:
+    print("Grade: B")
+
+elif marks >= 50:
+    print("Grade: C")
+
+else:
+    print("Fail")
