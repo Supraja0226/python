@@ -51,3 +51,25 @@ print(student)
 print(new_dict)
 print(new_dict.setdefault("name","Supraja"))#returns the value of the specified key. If the key does not exsit)
 print(new_dict.setdefault("age",21))
+
+students = {
+    "S101": {"name": "Ravi", "marks": 85},
+    "S102": {"name": "Priya", "marks": 92},
+    "S103": {"name": "Arun", "marks": 76}
+}
+
+print(students["S102"]["name"])
+print(students["S103"]["marks"])
+
+scores = {
+    "Ravi": 78,
+    "Priya": 95,
+    "Arun": 82,
+    "Sneha": 88
+}
+
+sorted_scores = dict(
+    sorted(scores.items(), key=lambda item: item[1])
+)
+
+print(sorted_scores)
