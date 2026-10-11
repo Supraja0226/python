@@ -148,3 +148,30 @@ elif marks >= 50:
 
 else:
     print("Fail")
+    
+    
+username = "admin"
+password = "python123"
+otp = 4567
+
+if username == "admin" and password == "python123":
+    if otp == 4567:
+        print("Login successful")
+    else:
+        print("Invalid OTP")
+else:
+    print("Invalid username or password")
+    
+    
+units = 250
+
+if units <= 100:
+    bill = units * 2
+elif units <= 200:
+    bill = 100 * 2 + (units - 100) * 3
+elif units <= 300:
+    bill = 100 * 2 + 100 * 3 + (units - 200) * 5
+else:
+    bill = 100 * 2 + 100 * 3 + 100 * 5 + (units - 300) * 8
+
+print("Electricity bill:", bill)
