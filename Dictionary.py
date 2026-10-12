@@ -73,3 +73,10 @@ sorted_scores = dict(
 )
 
 print(sorted_scores)
+
+marks = {"Maths": 80, "Science": 90, "English": 70}
+print(sum(marks.values()))
+
+student = {"name": "Ravi", "age": 20}
+print(student.get("age"))
+print(student.get("marks", 0))
