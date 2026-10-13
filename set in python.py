@@ -39,3 +39,13 @@ s2=s.copy()#returns a shallow copy of the set
 print(s2)
 print(s2.isdisjoint(s))#returns True if two sets have a null intersection
 print(s2.symmetric_difference(s))#returns a new set with elements in either the first or second set but not both
+
+numbers = {1, 2, 3, 4}
+numbers.discard(10)
+print(numbers)
+
+numbers = [10, 20, 10, 30, 20, 40, 30]
+
+unique_numbers = list(set(numbers))
+
+print(unique_numbers)
