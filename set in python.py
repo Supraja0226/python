@@ -49,3 +49,14 @@ numbers = [10, 20, 10, 30, 20, 40, 30]
 unique_numbers = list(set(numbers))
 
 print(unique_numbers)
+
+numbers = {45, 12, 78, 23, 9, 56}
+
+print("Largest:", max(numbers))
+print("Smallest:", min(numbers))
+
+a = {1, 2}
+b = {1, 2, 3, 4}
+
+print(a.issubset(b))
+print(b.issuperset(a))
