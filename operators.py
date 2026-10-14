@@ -60,4 +60,7 @@ b=5
 print(5 is b)
 print(5 is not b)
 
+a=7
+print(7 is a)
+print(7 is not a)
 
