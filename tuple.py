@@ -22,3 +22,14 @@ print(sorted(tup4))#returns a new sorted list from the elements of the tuple
 tup5=(1,2)
 tup6=(3,4,5)
 print(tup5+tup6)#combines two tuples
+
+colors = ("red", "green", "blue", "black")
+print(colors[-1])
+print(colors[-2])
+
+numbers = (10, 20, 30, 40, 50, 60)
+print(numbers[1:5])
+print(numbers[:3])
+print(numbers[::2])
+letters = ("A", "B", "C", "D", "E")
+print(letters[::-1])
